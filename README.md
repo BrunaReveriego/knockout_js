@@ -6,11 +6,12 @@ O código acima usa os seguintes recursos do KO:
 
 **observable:** Usada para definir as propriedades do modelo. Quando estas propriedades são vinculadas com Interface (IU) e quando o valor para essas propriedades são atualizadas, automaticamente os elementos da interface vinculados com estas propriedades serão atualizados com o novo valor;
 O Knockout adiciona rastreamento de dependências por meio de observables, que são objetos que podem notificar os ouvintes quando valores subjacentes foram alterados (semelhante ao conceito da interface INotifyPropertyChanged na tecnologia XAML). O KO implementa as propriedades observable dispondo propriedades de objetos com uma função personalizada chamada observable.
-
+<br>
 **ObservableArray:** Representa um conjunto de elementos de dados que requerem notificações. Tipicamente é usado para vincular com o tipo de Tabela de elementos;
+<br>
 **ApplyBindings:** Usado para ativar o KO para o documento HTML atual ou um elemento de interface do usuário específico no documento HTML. O parâmetro deste método é o view-model, que é definido no JavaScript. Este ViewModel contém o observable, observableArray e vários métodos;
 O exemplo também utiliza os seguintes tipos de vinculação:
-
+<br>
 **click :** Representa um manipulador de eventos Click adicionado ao elemento da interface do usuário, de modo que a função JavaScript seja chamada;
 <br>
 **value:** Representa a vinculação com a propriedade do elemento da interface do usuário do valor para a propriedade definida para o ViewModel;
