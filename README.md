@@ -12,6 +12,10 @@ O Knockout adiciona rastreamento de dependências por meio de observables, que s
 O exemplo também utiliza os seguintes tipos de vinculação:
 
 **click :** Representa um manipulador de eventos Click adicionado ao elemento da interface do usuário, de modo que a função JavaScript seja chamada;
+<br>
 **value:** Representa a vinculação com a propriedade do elemento da interface do usuário do valor para a propriedade definida para o ViewModel;
+<br>
 **visible:** Usada para ocultar ou exibir o elemento de interface do usuário com base no valor passado para sua vinculação;
+<br>
 **Text :** Representa o valor de texto do parâmetro passado para o elemento de interface do usuário;
+<br>
